@@ -1,0 +1,200 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(../resources/images/copertinaSE.jpeg);
+  background-position: 0 0;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  border-color: #2b547e;
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  background-color: #afdcec;
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  min-width: 900px;
+  width: auto;
+}
+
+tr {
+  background-color: #cfecec;
+}
+#queueLabel {
+  font-size: 20px;
+}
+
+.colonna {
+  padding-top: 20px;
+  width: 7%;
+  box-shadow: 5px 5px 3px #a3a0a1;
+  background-color: #fff8c6;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  font-size: large;
+}
+
+.button,
+#edit-submit {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #ffff9e;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover,
+#edit-submit:hover {
+  background-color: #ffff52;
+}
+
+.button:active,
+#edit-submit:active {
+  background-color: #ffff00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#icon-page1 {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#icon-back {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#icon-info {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#icon-logout {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  left: 65px;
+}
+
+#icon-home {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 18px;
+  right: 30px;
+}
+
+#icon-pdf {
+  width: 100px;
+  height: auto;
+  position: auto;
+  top: 10px;
+  right: 20px;
+}
+
+#title {
+  color: #2b547e;
+  text-align: center;
+}
+.row1 {
+  padding-top: 10px;
+  width: 7%;
+  box-shadow: 5px 5px 3px #a3a0a1;
+  background-color: #fff8c6;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  font-size: large;
+}
+.row2 {
+  padding-top: 15px;
+  width: 7%;
+  box-shadow: 5px 5px 3px #a3a0a1;
+  background-color: #fff8c6;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  font-size: large;
+}
+
+.row3 {
+  padding-top: 10px;
+  width: 7%;
+  box-shadow: 5px 5px 3px #a3a0a1;
+  background-color: #fff8c6;
+  text-align: left;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+.row4 {
+  padding-top: 20px;
+  width: 7%;
+  box-shadow: 5px 5px 3px #a3a0a1;
+  background-color: #fff8c6;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid black;
+  font-size: large;
+}
+
+.textarea {
+  resize: none;
+  font-size: 15px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+td {
+  text-align: center;
+}
+
+.time {
+  cursor: pointer;
+}
+.perc {
+  font-size: 15px;
+}
+
+.skillsIcon {
+  height: 30px;
+  width: auto;
+  padding-right: 20px;
+  cursor:pointer;
+}
+#login-image{
+  width: 100px;
+  height: auto;
+  position: center;
+}
